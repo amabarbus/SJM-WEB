@@ -1,0 +1,425 @@
+body {
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+    font-color: black;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+header {
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+.nav-bar li {
+  transition: background;
+  width: 12%;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+}
+
+.nav-bar li:hover {
+   transform: scale(1.2);
+   z-index: 10;
+
+    }
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: black;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+    
+td, th {
+    padding: 15px;
+}
+
+pre {
+    white-space: pre-wrap;
+    vertical-align: top;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-color: black;
+}
+
+img{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+
+h1 {
+   text-align: center;
+   font-size: 50px;
+}
+
+.polaroid {
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: cenpx;px;ter;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+}
+
+
+.polaroid:hover {
+   transform: scale(1.1);
+   z-index: 10;
+}
+
+.container {
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.book-section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.book-section h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.book-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-bottom: 15px;
+  box-shadow: none;
+  border-radius: 10px 10px 0px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+.book-section p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.book-section a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.book-section a:hover {
+  text-decoration: underline;
+}
+
+.container-quotes {
+  display: flex;
+  flex: 1;
+  padding: 20px;
+  gap: 20px;
+}
+
+.vertical-section {
+  flex: 1;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section:hover {
+   background: #909580;
+   transform: scale(0.8);
+   transition: background 1.5s;
+   z-index: 10;
+}
+
+blockquote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: black;
+  margin-left: 0px;
+  padding-left: 5px;
+  text-align: center;
+}
+
+.vertical-section-a1 {
+  flex: 1;
+  padding: 30px;
+  background: url('images/author.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-section-a2 {
+  flex: 1;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.contact-info {
+  margin-left: 20px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #3a86ff;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.vertical-section-tog1 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/manon.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-tog2 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/aelin.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-tog3 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/dorian.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-acotar1 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/velaris1.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-acotar2 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/feyre.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-acotar3 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/velaris2.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-cc1 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/danika.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-cc2 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/bryce.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-cc3 {
+  flex: 1;
+  padding: 30px;
+  height: 680px;
+  background: url('images/fanart/lehabah.jpg') no-repeat;
+  background-size: 100%;
+  border-radius: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  transition: transform 0.3s ease, z-index 0s 0.3s;
+
+}
+
+.vertical-section-tog1:hover, .vertical-section-tog2:hover, .vertical-section-tog3:hover, .vertical-section-acotar1:hover, .vertical-section-acotar2:hover, .vertical-section-acotar3:hover, .vertical-section-cc1:hover, .vertical-section-cc2:hover, .vertical-section-cc3:hover {
+   transform: scale(1.05);
+   z-index: 10;
+}
+
+.title-tog1 {
+   background: url('images/titles/tog-title1.png');
+   height: 10px;
+   position: static;
+   justify-content: center;
+}
+
