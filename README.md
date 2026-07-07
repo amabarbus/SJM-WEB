@@ -29,6 +29,3 @@ The website is structured into five distinct sections:
     ```
 2.  Navigate to the project folder.
 3.  Open `home.html` in your browser to view the site.
-
----
-[Created by Bărbuș Amalia for the High School Computer Science Certificate, 2025.]
